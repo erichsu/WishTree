@@ -28,7 +28,7 @@ $(function(){
 													.css("right", right)
 													.css("top", top)
 													.click(function(){
-														document.location.href = key;
+														window.open(key);
 													});
 								} else {
 								$('<div class="fruit">')
@@ -37,7 +37,7 @@ $(function(){
 									.css("right", right)
 									.css("top", top)
 									.click(function(){
-										document.location.href = key;
+										window.open(key);
 									});
 								}
 								i++;
